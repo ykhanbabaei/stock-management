@@ -4,9 +4,13 @@
 /dist
 /tmp
 /out-tsc
+bin/
+lib/
+target/
 
 # dependencies
 /node_modules
+/node
 
 # IDEs and editors
 /.idea
@@ -30,9 +34,12 @@
 /coverage
 /libpeerconnection.log
 npm-debug.log
-yarn-error.log
 testem.log
 /typings
+
+# e2e
+/e2e/*.js
+/e2e/*.map
 
 # System Files
 .DS_Store
