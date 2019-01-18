@@ -1,0 +1,14 @@
+.title{
+  padding: 0 16px 0 24px;
+	font-family: 'Roboto Medium', 'Roboto Regular', 'Roboto';
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.866667);
+  font-weight: 500;
+}
+
+.font{
+  font-size: 13px;
+  font-family: "Roboto";
+  font-weight: 400;
+  font-style: normal;
+}

@@ -1,3 +1,21 @@
-<p>
-  Identifikationsnummer {{data.identificationNumber}}!
-</p>
+<div style="margin-left: 350px;">
+  <mat-card style="margin:20px; height: 100%; min-height: 150px;">
+    <div class="title">Allgemein</div>
+    <mat-list>
+      <mat-divider></mat-divider>
+       <mat-list-item>
+        <div style ="width: 100%; padding: 0 24px;">
+          <div class="font" style="display:inline-block; min-width: 200px; color:#999999;">
+	            Identifikationsnummer
+          </div>
+          <div class="font" style="display:inline-block;">
+	          	{{data.identificationNumber}}
+          </div>
+        </div>
+      </mat-list-item>
+      <mat-divider></mat-divider>
+    </mat-list>
+
+  </mat-card>
+
+</div>
